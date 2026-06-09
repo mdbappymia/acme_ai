@@ -35,6 +35,26 @@ Application URL: http://localhost:5173
 cd server
 ```
 
+### Create Virtual Environment
+
+```
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+Windows:
+
+```
+venv\Scripts\activate
+```
+
+Linux:
+
+```
+source venv/bin/activate
+```
+
 ### Install Dependencies
 
 ```python
