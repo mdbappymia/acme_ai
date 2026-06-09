@@ -8,6 +8,7 @@
 
 ```
 git clone https://github.com/mdbappymia/acme_ai.git
+cd acme_ai
 cd client
 ```
 
@@ -36,9 +37,15 @@ cd server
 ```
 
 ### Create Virtual Environment
-
+Windows:
 ```
 python -m venv venv
+```
+Linux:
+```
+sudo apt update
+sudo apt install python3-venv
+python3 -m venv venv
 ```
 
 ### Activate Virtual Environment
